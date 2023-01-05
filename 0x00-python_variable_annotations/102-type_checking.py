@@ -2,10 +2,10 @@
 
 """102. Type Checking"""
 
-from typing import Tuple
+from typing import Tuple, List
 
 
-def zoom_array(lst: Tuple, factor: int = 2) -> Tuple:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """zoom_array"""
     zoomed_in: Tuple = (
         lst[0] / factor,
